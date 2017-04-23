@@ -1,6 +1,6 @@
 <?php
 
-include_once './StatsMath.php';
+include_once 'StatsMath.php';
 
 /**
  * Description of Stats
@@ -14,6 +14,6 @@ class Stats {
      * @return type
      */
     public static function mean(array $x){
-        return StatsMath::sum($x)/coun($x);
+        return StatsMath::sum($x)/count($x);
     }
 }
