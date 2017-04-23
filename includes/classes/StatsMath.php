@@ -1,9 +1,6 @@
 <?php
 
-/*
- * 
- */
-
+include_once './Math.php';
 /**
  * Description of StatsMath
  *
