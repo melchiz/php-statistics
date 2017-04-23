@@ -8,6 +8,11 @@ include_once './StatsMath.php';
  * @author Melchizo
  */
 class Stats {
+    /**
+     * 
+     * @param array $x
+     * @return type
+     */
     public static function mean(array $x){
         return StatsMath::sum($x)/coun($x);
     }
