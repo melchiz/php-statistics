@@ -12,11 +12,17 @@ and open the template in the editor.
     <body>
         <?php
         include_once './includes/classes/Math.php';
+        include_once './includes/classes/Stats.php';
         echo "This is it <br>";
         $x = 4646;
         $y = 465;
         echo 'Add(23, 34): ' . Math::add(23.05, 34.05);
-        echo 'Add(23, 34): ' . Math::div($x, $y); 
+        echo "<br>";
+        echo 'Add(23, 34): ' . Math::div($x, $y);
+        echo "<br>";
+        
+        $d = [10,20,30,40,50,60,50];
+        echo 'mean(x): ' . Stats::mean($d); 
         ?>
     </body>
 </html>
