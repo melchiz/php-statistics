@@ -16,7 +16,7 @@ and open the template in the editor.
         $x = 4646;
         $y = 465;
         echo 'Add(23, 34): ' . Math::add(23.05, 34.05);
-        echo 'Add(23, 34): ' . Math::div($x, $y);
+        echo 'Add(23, 34): ' . Math::div($x, $y); 
         ?>
     </body>
 </html>
