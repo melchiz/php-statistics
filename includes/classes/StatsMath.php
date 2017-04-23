@@ -9,7 +9,7 @@
  *
  * @author Melchizo
  */
-class StatsMath extends Math{
+class StatsMath{
     /**
      * 
      * @param array $x an array of float data type
@@ -41,7 +41,11 @@ class StatsMath extends Math{
      * @param float $y a float data type
      * @return float
      */
-    public static function rem(float $x, float $y){
-        return $x % $y;
+    public static function rem(array $x, array $y){
+         $s = [];
+        for ($i = 0; $i < count($x); $i++) {
+            $x[i] = Math::mod($x, $y);
+        }
+        return $s;
     }
 }

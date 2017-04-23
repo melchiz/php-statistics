@@ -57,31 +57,5 @@ abstract class Math {
     public static function mod(float $x, float $y){
         return $x % $y;
     }
-   /**
-     * 
-     * @param float $x a float data type
-     * @param float $y a float data type
-     * @return float
-     */
-    public static function sum(float $x, float $y){
-        return $x + $y;
-    }
-    /**
-     * 
-     * @param float $x a float data type
-     * @param float $y a float data type
-     * @return float
-     */
-    public static function diff(float $x, float $y){
-        return $x - $y;
-    }
-    /**
-     * 
-     * @param float $x a float data type
-     * @param float $y a float data type
-     * @return float
-     */
-    public static function rem(float $x, float $y){
-        return $x % $y;
-    }
+   
 }
